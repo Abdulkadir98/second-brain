@@ -1,0 +1,2 @@
+**Deadlock**
+A "deadlock" situation occurs when two or more competing threads are waiting on each other to finish but remain in the waiting state indefinitely without any either thread giving up the lock first
