@@ -1,0 +1,93 @@
+{
+  "main": {
+    "id": "605f8991e3cc4cf6",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed8eddd24ae9b3d4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "System Design Interview - Alex Yu.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c5fa2fe60a7a6e24",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a5952bd31e778a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0e6637474f529d3d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "40444f0e2d3673ae",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7d203a1d8073a6d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "1416970eb85404ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51d4474ec9fe6f38",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "System Design Interview - Alex Yu.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ed8eddd24ae9b3d4",
+  "lastOpenFiles": [
+    "System Design Interview - Alex Yu.md"
+  ]
+}

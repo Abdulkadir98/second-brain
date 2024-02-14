@@ -1,0 +1,135 @@
+{
+  "main": {
+    "id": "605f8991e3cc4cf6",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4df6bf9d944d539",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed8eddd24ae9b3d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Distributed Systems & System Design/System Design Interview - Alex Yu.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7304785e13a4fefb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming languages/Learning Programming languages.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c5fa2fe60a7a6e24",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a5952bd31e778a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0e6637474f529d3d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "40444f0e2d3673ae",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1d4a7c03f8a0fb8d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7d203a1d8073a6d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "1416970eb85404ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51d4474ec9fe6f38",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Programming languages/Learning Programming languages.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "7304785e13a4fefb",
+  "lastOpenFiles": [
+    "Distributed Systems & System Design/System Design Interview - Alex Yu.md",
+    "Programming languages/Learning Programming languages.md",
+    "Untitled",
+    "Programming languages"
+  ]
+}

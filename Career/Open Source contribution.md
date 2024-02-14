@@ -1,0 +1,1 @@
+https://www.freecodecamp.org/news/a-practical-guide-to-start-opensource-contributions/

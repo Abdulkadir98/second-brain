@@ -1,0 +1,3 @@
+* Use The Grind 75 tool to get a plan of leetcode questions to tackle based on study schedule - https://www.techinterviewhandbook.org/grind75
+* Two most important things to do in an interview - come up with problem solving approaches and ways to optimize time and space complexity. Use this study guide to learn techniques topic wise - https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/
+* https://seanprashad.com/leetcode-patterns/

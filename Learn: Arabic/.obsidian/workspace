@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "c32ec3f09186c255",
+    "type": "split",
+    "children": [
+      {
+        "id": "303b561066b8837b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Website resource.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f1173a554a162d1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e6abb843011471c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f26cf4e027ff7221",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "763ef2ec422b255d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5d2e499b621b5785",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d228c956fd60ad5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0863d868ec0e9cc2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Website resource.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "303b561066b8837b",
+  "lastOpenFiles": [
+    "Website resource.md",
+    "Lesson 1.md",
+    "Huroof.md",
+    "Aalo Taha Mana Qasida/AALO TAHA MANA BEOUL BARAKAATI with fehwa....pdf",
+    "Aalo Taha Mana Qasida/Bait 6.md",
+    "Aalo Taha Mana Qasida/Bait 7.md",
+    "Aalo Taha Mana Qasida/Bait 7.pdf",
+    "Aalo Taha Mana Qasida/Bait 15.md",
+    "Aalo Taha Mana Qasida/Bait 14.md",
+    "Aalo Taha Mana Qasida/Bait 13.md"
+  ]
+}

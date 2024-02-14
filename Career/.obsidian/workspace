@@ -1,0 +1,99 @@
+{
+  "main": {
+    "id": "3764099ed7d68366",
+    "type": "split",
+    "children": [
+      {
+        "id": "b3c56715406016c2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Open Source contribution.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c516ccabc6576f68",
+    "type": "split",
+    "children": [
+      {
+        "id": "e1f4073c4cefff77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "056ad711717e9492",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "04ef9802e680e548",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "88ac51727d6ef30e",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d37309c8bf02747",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e32c53f50b6e1051",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Open Source contribution.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "b3c56715406016c2",
+  "lastOpenFiles": [
+    "Topic wise Patterns and Templates.md",
+    "Interview Prep resources.md",
+    "Every Programmer should know.md",
+    "Behavioral Interview Questions.md",
+    "Salary negotiation.md",
+    "Google Interview Study Plan.md"
+  ]
+}

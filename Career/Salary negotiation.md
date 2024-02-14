@@ -1,0 +1,1 @@
+https://candor.co/guides/salary-negotiation
