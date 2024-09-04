@@ -4,55 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "8c4edc7fa4a2bfbd",
+        "id": "6899b0ae10873de9",
         "type": "tabs",
         "children": [
           {
-            "id": "fa9676e39f75aa3f",
+            "id": "7f1c1125c0e45e05",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "0190d172fb6b0796",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "Networking/Application Layer Protocols.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.6.7"
               }
             }
           },
           {
-            "id": "a7369316eb8e6d66",
+            "id": "4c13fcbe3912182c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Relational Databases.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e33c0162154848c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Application Layer Protocols.md",
+                "file": "Papers/Facebook's Gorilla- In-memory time series DB.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Relational Databases.md",
+                "file": "Papers/Facebook's Gorilla- In-memory time series DB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Relational Databases.md",
+                "file": "Papers/Facebook's Gorilla- In-memory time series DB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Relational Databases.md"
+                "file": "Papers/Facebook's Gorilla- In-memory time series DB.md"
               }
             }
           },
@@ -176,7 +154,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -197,12 +177,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a7369316eb8e6d66",
+  "active": "4c13fcbe3912182c",
   "lastOpenFiles": [
-    "Networking/Application Layer Protocols.md",
-    "Databases/Relational Databases.md",
-    "Databases",
     "Networking/Guide to learn Networking.md",
+    "Complete CS Roadmap.md",
+    "Papers/Facebook's Gorilla- In-memory time series DB.md",
+    "Papers/Google Zanzibar White Paper.md",
+    "Papers",
+    "Distributed System & System Design/Learning Resources.md",
+    "Networking/Transport layer.md",
+    "Networking/Wireshark Labs.md",
+    "Networking/Application Layer Protocols.md",
+    "Data Structures & Algorithms/Learning.md",
+    "Data Structures & Algorithms",
+    "Databases/Relational Databases.md",
+    "Distributed System & System Design",
+    "Databases",
     "Amdahl's Law.md",
     "Networking",
     "Concurrency in Java/Thread Safety.md",

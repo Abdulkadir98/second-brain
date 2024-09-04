@@ -25,14 +25,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming languages/Learning Programming languages.md",
+                "file": "Distributed Systems & System Design/System Design Interview - Alex Yu.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "bcbe0c5decf22dab",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
+          },
+          {
+            "id": "544599e682b16c66",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming languages/Learning Programming languages.md",
+                "file": "Distributed Systems & System Design/System Design Interview - Alex Yu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +126,18 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0a9a12c6c758f9cb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -125,10 +157,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "7304785e13a4fefb",
+  "active": "544599e682b16c66",
   "lastOpenFiles": [
-    "Distributed Systems & System Design/System Design Interview - Alex Yu.md",
     "Programming languages/Learning Programming languages.md",
+    "Distributed Systems & System Design/System Design Interview - Alex Yu.md",
     "Untitled",
     "Programming languages"
   ]
