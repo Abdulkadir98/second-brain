@@ -8,7 +8,7 @@ Vim is a very powerful modal text editor favored by programmers for many many ye
 4. Replace (For replacing text)
 5. Command-line (For running a command)
 
-Normal mode allows you to navigate throughout the file, perform other actions such as deletion, etc. Editing mode is self-explanatory, it allows you to insert text, and the visual mode allows you to select blocks of text and so on. You might wonder why there is a need for a “mode” besides editing. What else could you possibly want to do? Remember a lot of the time coding is writing code but it’s also removing code, jumping from one function/file to another function/file, and making small edits throughout the file. The designers of vim in their infinite wisdom came up with this idea which has greatly enhanced programmers’ productivity manifold.
+Normal mode allows you to navigate throughout the file, perform other actions such as deletion, etc. Editing mode is self-explanatory, it allows you to insert text, and the visual mode allows you to select blocks of text and so on. You might wonder why there is need for a “mode” besides editing. What else could you possibly want to do? Remember a lot of the time coding is writing code but it’s also removing code, jumping from one function/file to another function/file, and making small edits throughout the file. The designers of vim in their infinite wisdom came up with this idea which has greatly enhanced programmers’ productivity manifold.
 
 Let’s first start by doing the most basic thing — Opening a file in vim and closing it, the “Hello, World!” equivalent in vim if you will.
 
@@ -52,11 +52,14 @@ Here are some basic vim movement actions-
 
 ##### Search
 `/{regex}` - Searches occurrences of regex in the file, `n/N` for navigating between matches of the regex
+`f{char}` - will find the first character in the line and take the cursor to it
+`t{char}` - will find the first character in the line and take the cursor just before it
+After finding the first character, if you want to find the same character you can simply press the `;` key and that will repeat the last search. Vim provides lots of ways to combine two commands or compound commands into a single one. If you press `;` many times and cross the pass the character by mistake, you can perform the search in reverse and go back to the character by pressing the `,` key.
 
 You will spend a lot of time in Normal mode. The movement commands in `Vim` are also called "nouns" because they refer to portions of text
 
 #### Editing
-Most of us are so used to GUIs and we tend to use the mouse for everything. But with Vim everything that you use the mouse for you can use the keyboard to do it. This is where Vim really shines. By "composing" editing commands with movement commands Vim really starts resembling a programming language.
+Most of us are so used to GUIs we tend to use the mouse for everything. But with Vim everything that you use the mouse for you can use the keyboard to do it. This is where Vim really shines. By "composing" editing commands with movement commands Vim really starts resembling a programming language.
 
 `i` - To enter `insert` mode. Allows you start typing text
 `o/O` - Insert line below/above end enter `insert` mode
@@ -75,13 +78,55 @@ Most of us are so used to GUIs and we tend to use the mouse for everything. But 
 #### Counts
 Vim provides the notion of ‘count’. You can preface an “action” (moving up, left, right, and, down in this case) with an optional count telling vim the number of times you want to perform that action.
 
-For example:
-
-`5j` will move the cursor below 5 lines, `4h` will move the cursor 4 positions to the left. Similarly,
+- `5j` will move the cursor below 5 lines, `4h` will move the cursor 4 positions to the left. Similarly,
 - `4w` Moves four words forward
 - `6dw` Deletes the next six words
 you get the idea.
 
+##### Modifiers
+With the help of modifiers you can change the meaning of nouns for e.g. `i` which means "inner" or "inside" and `a` which mean "around". Navigate the cursor to to a character inside a word you wish to modify-
+- `ci"` will let you change the contents of the string inside the quotes
+- `ci(` similarly will let you change the contents inside the parenthesis
+- `da'` deletes a single quoted string, include the surrounding quotes
 
+#### Advanced Vim
+In this section my hope is to provide a bunch of nifty commands and patterns that I find useful and hopefully you also find useful and include in your own workflows
 
+###### Dot command (.)
+The `.` command put simply, "repeats" the last change. Here "change" can be at the character level, line or lines, or even at the entire file which is what makes it so powerful.
 
+For e.g. Consider this snippet of text
+```
+line one..
+line two..
+line three..
+line four..
+```
+If we place our cursor at the first character and press `x` it will remove the first character. If we press `.` then it will repeat the last change i.e. remove the character under the cursor. This way, we can repeatedly remove the characters under the cursor. This example is not very helpful though. Let's look at how we can use the `.` command to perform search-and-replace of a string
+
+###### find and replace
+Remember you can use the substitute command to search for a particular regex and replace it like so,
+```
+:%s/regex/replacement
+```
+and if you want to replace all occurrences you can use the global flag to do that
+```
+:%s/regex/replacement/g
+```
+Now let's say you want selectively change each string and not perform the action on all strings. You can achieve that with the help of the `.` command! The pattern is make the change for one string, then make it repeatable with the `.` command.
+
+<Add example paragraph here>
+
+You can either search for the word using 
+```
+/target
+```
+or you can navigate to the word using the cursor and then press the `*` key. This will highlight all the words in the file. If you do not see them highlighted try setting it using this command
+```
+:set hls
+```
+Once our cursor is in position to change the word we perform the change with the help of the change command
+```
+cwreplacementString<Esc>
+```
+This deletes the word and replaces it with the string and then enters back to normal mode. Now we can jump to the next occurrence using the `n` key. Vim has recorded our last change which is replacing the word. So we simply use the `.` command and it performs the same change. This way we can cycle through all the words by simply hitting `n.n.n.`. 
