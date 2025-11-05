@@ -58,6 +58,43 @@ After finding the first character, if you want to find the same character you ca
 
 You will spend a lot of time in Normal mode. The movement commands in `Vim` are also called "nouns" because they refer to portions of text
 
+#### Selection
+
+Visual modes:
+- `v` - visual
+- `V`- visual line
+- `ctrl + V` - visual block
+You can use movement commands to select blocks of text.
+
+Here's an example that I really like and use it day-to-day at my job:
+
+When I want to move around commits in my git repository in an interactive rebase (git is explained in a later chapter)
+
+> $ git rebase -i HEAD~3..
+
+The default editor used by git is `vim` (another reason to learn Vim!)
+
+```
+commit 1..
+commit 2..
+commit 3..
+```
+Now if I want to move commit 3 above commit 2 I will first move the cursor to line 2 then select the entire line
+```
+ctrl-V + $
+```
+`ctrl-V` enters visual block mode and then `$` selects everything to the end of the line. You will see the entire line gets highlighted. Then press `y` (yank), this copies the text.
+
+You can then delete the line with `dd`. Line 2 gets removed and commit 3 now becomes line 2. Then press `p` (paste), the line you just copied gets pasted after line 2. So effectively you have reordered the commits. This is what it should look like
+
+```
+commit 1..
+commit 3..
+commit 2..
+```
+
+You can exit the vim editor to complete the interactive rebase by typing `:wq`
+
 #### Editing
 Most of us are so used to GUIs we tend to use the mouse for everything. But with Vim everything that you use the mouse for you can use the keyboard to do it. This is where Vim really shines. By "composing" editing commands with movement commands Vim really starts resembling a programming language.
 
