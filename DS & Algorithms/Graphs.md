@@ -5,7 +5,7 @@ A cycle can be detected by both DFS and BFS in linear time O(V + E)
 
 rough algorithm:
 1. Perform DFS and maintain a map/array of the call stack of a node
-2. If a node is seen in the call stack map/array before it finishes its won call then it is a back edge and the cycle exists in the graph
+2. If a node is seen in the call stack map/array before it finishes its own call then it is a back edge and the cycle exists in the graph
 
 References:
 MIT video: https://www.youtube.com/watch?v=tg96sZqhXyU&ab_channel=OnlineLearning
