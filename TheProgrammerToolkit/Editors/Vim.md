@@ -167,3 +167,15 @@ Once our cursor is in position to change the word we perform the change with the
 cwreplacementString<Esc>
 ```
 This deletes the word and replaces it with the string and then enters back to normal mode. Now we can jump to the next occurrence using the `n` key. Vim has recorded our last change which is replacing the word. So we simply use the `.` command and it performs the same change. This way we can cycle through all the words by simply hitting `n.n.n.`. 
+
+### Customizing Vim
+Vim is very configurable and maintains configuration via a "dotfile" (`~/.vimrc`) which is a plain-text file. You can easily search for example configuration files online on GitHub or various other blogs. Try not to copy-paste but understand every line in the file.
+
+
+### Extend Vim
+Vim has a rich plugin ecosystem with tons of cool plugins to choose from. To start using plugins create a directory where you can save the plugins
+```
+~/.vim/pack/vendor/start/
+```
+store plugins in this directory (e.g. via `git clone`)
+Check out [Vim awesome](https://vimawesome.com/) for some cool vim plugins. 
