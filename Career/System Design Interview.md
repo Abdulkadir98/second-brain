@@ -14,3 +14,11 @@
 	  2. What are the bottlenecks?
 4. Wrap-up
 	1. Talk about Observability, Monitoring, Security etc
+
+
+Resources:
+https://www.techinterviewhandbook.org/system-design/
+
+Low-level design:
+https://roadmap.sh/software-design-architecture
+
