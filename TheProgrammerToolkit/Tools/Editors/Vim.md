@@ -1,4 +1,4 @@
-### Vim in 10 minutes
+Wikipedia defines a "text-editor" as an interactive software that allows users to edit plain text.
 
 Vim is a very powerful modal text editor favored by programmers for many many years. If you need a command-line text editor then I would strongly recommend learning vim. Now, what do I mean by vim being a “modal” editor? — Vim has five modes.
 
@@ -9,6 +9,11 @@ Vim is a very powerful modal text editor favored by programmers for many many ye
 5. Command-line (For running a command)
 
 Normal mode allows you to navigate throughout the file, perform other actions such as deletion, etc. Editing mode is self-explanatory, it allows you to insert text, and the visual mode allows you to select blocks of text and so on. You might wonder why there is need for a “mode” besides editing. What else could you possibly want to do? Remember a lot of the time coding is writing code but it’s also removing code, jumping from one function/file to another function/file, and making small edits throughout the file. The designers of vim in their infinite wisdom came up with this idea which has greatly enhanced programmers’ productivity manifold.
+
+>Before we go any further, I would like to state the *crux* of this chapter
+>Vim allows us to type and edit code nearly at the speed of thought
+
+This will become clear very soon but if you have been doing any programming at all you will realize that a lot of time is spent not just writing code, but also reading, and editing existing code. I would argue that the time spent writing fresh code is almost always less than the other two. If that is indeed the case, Vim is a fantastic tool for programmers who want to be really productive and want to write code at the speed at which they think. That alone makes it worthwhile to learn.
 
 Let’s first start by doing the most basic thing — Opening a file in vim and closing it, the “Hello, World!” equivalent in vim if you will.
 
@@ -179,3 +184,30 @@ Vim has a rich plugin ecosystem with tons of cool plugins to choose from. To sta
 ```
 store plugins in this directory (e.g. via `git clone`)
 Check out [Vim awesome](https://vimawesome.com/) for some cool vim plugins. 
+
+If you are still not convinced here is a list (non-exhaustive) of reasons to pick up Vim
+- You can flex to your co-workers that you code entirely in Vim (No but seriously!)
+- Low resource usage: low memory, better performance
+- Lots of customization 
+- Only need the keyboard; better ergonomy
+- It is widely available (comes pre-installed in MacOS and many popular Linux distros)
+
+
+### Exercises
+1) Fix this broken implementation of the "fizzbuzz" program
+```
+def fizz_buzz(limit):
+    for i in range(limit):
+        if i % 3 == 0:
+            print('fizz')
+        if i % 5 == 0:
+            print('fizz')
+        if i % 3 and i % 5:
+            print(i)
+
+def main():
+    fizz_buzz(10)
+```
+
+
+
