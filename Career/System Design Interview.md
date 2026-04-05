@@ -18,6 +18,7 @@
 
 Resources:
 https://www.techinterviewhandbook.org/system-design/
+https://github.com/donnemartin/system-design-primer
 
 Low-level design:
 https://roadmap.sh/software-design-architecture
