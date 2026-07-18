@@ -20,3 +20,16 @@ Backtracking has exponential time complexity in the worst case, but pruning tech
 Backtracking solutions that have overlapping subproblems can benefit from "memoization", i.e. adding a cache to reuse solutions of subproblems which is nothing but top-down DP
 
 https://leetcode.com/studyplan/dynamic-programming/
+
+Dynamic Programming problems have the following properties:
+1. Optimal substructure
+2. Overlapping sub problems
+If the question states to maximize or minimize something, and if a decision can affect future decisions then it's a good candidate for dynamic programming
+
+Every dp problem has a state variable that is usually the index of the input array provided.
+For e.g. in climbing stairs problem, the input is a 1-D array. Then dp(i) represents the number of ways you climb up to stair 'i'
+
+Framework to solve dynamic programming problems. 
+1. A function/data structure that can compute the solution for the ith state
+2. A recurrence relation that determines the transition between states
+3. Base cases
