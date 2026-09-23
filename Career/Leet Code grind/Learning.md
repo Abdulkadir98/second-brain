@@ -8,7 +8,7 @@ How to save yourself from 1K+ Leetcode questions.
   
 14. Comprehensive Data Structure and Algorithm Study Guide: https://leetcode.com/discuss/general-discussion/494279/comprehensive-data-structure-and-algorithm-study-guide
   
-15. Dynamic Programming Explained with Patterns: https://lnkd.in/dwXm3hGX  
+15. Dynamic Programming Explained with Patterns: https://leetcode.com/discuss/post/458695/dynamic-programming-patterns-by-aatalyk-pmgr/
   
 16. All Graphs Algorithms in 1 Place: https://lnkd.in/dc5djrQG  
   
